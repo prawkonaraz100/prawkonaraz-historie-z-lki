@@ -1,9 +1,10 @@
-# Ola — MASTER CHARACTER v1
+﻿# Ola — MASTER CHARACTER v1
 
 > **Status:** CANON / master reference
 > **Uniwersum:** PrawkoNaRaz — Historie z L-ki
 > **Rola:** główna protagonistka, instruktorka nauki jazdy
 > **Wersja:** 1.0
+> **Referencja wizualna:** [OLA-MASTER-v1.jpg](reference/OLA-MASTER-v1.jpg)
 > **Zasada:** każda przyszła ilustracja, animacja, kwestia dialogowa i historia z Olą musi być zgodna z tym dokumentem. Zmiana stałej cechy wymaga najpierw aktualizacji kanonu.
 
 ## 1. Funkcja w serialu
