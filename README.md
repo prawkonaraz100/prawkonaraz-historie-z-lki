@@ -10,14 +10,14 @@ Pliki oznaczone jako `MASTER` są nadrzędnymi referencjami. Nowy scenariusz, gr
 
 ## Planowana struktura
 
-- `characters/` — główne i drugoplanowe postacie
+- `characters/` — główne i drugoplanowe postacie wraz z kanonicznymi referencjami wizualnymi
 - `world/` — zasady i biblia świata
 - `locations/` — stałe lokacje
 - `vehicles/` — samochody szkoleniowe i inne pojazdy
 - `visual-style/` — język wizualny, paleta, zasady animacji
 - `episodes/` — scenariusze i storyboardy odcinków
 - `production/` — zasady produkcji, głosu, montażu i publikacji
-- `assets/` — zatwierdzone materiały referencyjne, gdy zostaną dodane
+- `assets/` — pozostałe zatwierdzone materiały produkcyjne
 
 ## Aktualny etap
 
@@ -25,8 +25,8 @@ Najpierw projektujemy kompletne uniwersum. Nie rozpoczynamy seryjnej produkcji o
 
 ### Główni bohaterowie
 
-1. **Jacek** — instruktor, główny protagonista męski — MASTER v1.
-2. **Ola** — instruktorka, główna protagonistka żeńska — w projektowaniu.
-3. **Pani Ilona** — właścicielka/szefowa fikcyjnego OSK — do zaprojektowania.
+1. **Jacek** — instruktor, główny protagonista męski — MASTER v1 + kanoniczna referencja wizualna.
+2. **Ola** — instruktorka, główna protagonistka żeńska — MASTER v1 + kanoniczna referencja wizualna.
+3. **Pani Ilona** — właścicielka i menedżerka fikcyjnego OSK — MASTER v1 + kanoniczna referencja wizualna.
 
 PrawkoNaRaz jest marką i wydawcą serii. Bohaterowie działają w fikcyjnym OSK, którego nazwa zostanie ustalona w biblii świata.
