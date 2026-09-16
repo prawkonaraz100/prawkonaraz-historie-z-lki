@@ -108,7 +108,7 @@ Mogą się nie zgadzać w metodzie, ale nie robimy z tego wojny płci ani schema
 
 Ilona jest właścicielką OSK i przełożoną Oli. Ola szanuje jej odpowiedzialność za firmę, ale przez swoją szybkość może czasami już działać, zanim Ilona skończy przedstawiać plan. To potencjalne źródło humoru.
 
-Relacja zostanie rozszerzona po zatwierdzeniu `ILONA-MASTER`.
+Nadrzędne zasady dynamiki głównej trójki są opisane w [`world/RELATIONSHIPS-MASTER.md`](../../world/RELATIONSHIPS-MASTER.md).
 
 ## 9. Kanon wizualny
 

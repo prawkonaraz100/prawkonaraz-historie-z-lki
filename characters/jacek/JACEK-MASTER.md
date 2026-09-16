@@ -145,7 +145,7 @@ Nie budować relacji na zasadzie „mądry Jacek poprawia Olę”. Oboje mogą m
 
 Ilona jest szefową OSK. Jacek ją szanuje, ale dzięki wieloletniej współpracy może pozwolić sobie na suchy komentarz lub charakterystyczne spojrzenie, gdy w firmie zaczyna się chaos. Nie podważa jej autorytetu przy kursantach.
 
-Szczegóły obu relacji zostaną rozwinięte po zatwierdzeniu kart Oli i Ilony.
+Nadrzędne zasady dynamiki głównej trójki są opisane w [`world/RELATIONSHIPS-MASTER.md`](../../world/RELATIONSHIPS-MASTER.md).
 
 ## 9. Wygląd — kanon wizualny
 
