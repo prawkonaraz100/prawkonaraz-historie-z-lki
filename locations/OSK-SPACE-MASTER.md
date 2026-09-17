@@ -27,20 +27,20 @@ To tutaj bohaterowie spotykają się między jazdami, kursanci przychodzą zała
 
 ## 3. Tryb zajęć teoretycznych
 
-OSK **nie ma osobnej sali wykładowej**.
+W serialu **nie pokazujemy osobnej sali wykładowej**. Nie przesądza to, jak formalnie ośrodek spełnia wszystkie wymagania dotyczące infrastruktury szkoleniowej poza kadrem.
 
-Kiedy potrzebna jest przestrzeń do zajęć, **Ilona rozkłada krzesła w tym samym głównym pomieszczeniu** i przygotowuje je do spotkania z kursantami. Po zajęciach przestrzeń wraca do codziennej funkcji biurowej.
+Kiedy scena wymaga zajęć teoretycznych, **Ilona rozkłada krzesła w tym samym głównym pomieszczeniu** i przygotowuje je do spotkania z kursantami. Po zajęciach przestrzeń wraca do codziennej funkcji biurowej.
 
 Ta transformacja jest częścią charakteru miejsca i może naturalnie generować sytuacje komediowe, ale nie może być wymuszonym gagiem w każdym odcinku.
 
-## 4. Czego OSK nie posiada w kanonie
+## 4. Czego nie pokazujemy jako stałych lokacji serialu
 
 - osobnej sali wykładowej;
 - osobnego gabinetu Ilony;
 - osobnego sekretariatu/recepcji jako drugiego pomieszczenia;
-- **placu manewrowego jako lokacji serialu**.
+- **placu manewrowego**.
 
-Nie dodawać tych przestrzeni w ilustracji lub scenariuszu bez świadomej zmiany kanonu.
+To jest decyzja narracyjna i produkcyjna, a nie deklaracja, że fikcyjny ośrodek nie spełnia wymagań formalnych. Nie dodawać tych przestrzeni jako stałych lokacji w ilustracji lub scenariuszu bez świadomej zmiany kanonu.
 
 ## 5. Przestrzeń zewnętrzna
 
