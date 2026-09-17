@@ -29,4 +29,4 @@ Najpierw projektujemy kompletne uniwersum. Nie rozpoczynamy seryjnej produkcji o
 2. **Ola** — instruktorka, główna protagonistka żeńska — MASTER v1 + kanoniczna referencja wizualna.
 3. **Pani Ilona** — właścicielka i menedżerka fikcyjnego OSK — MASTER v1 + kanoniczna referencja wizualna.
 
-PrawkoNaRaz jest marką i wydawcą serii. Bohaterowie działają w fikcyjnym OSK, którego nazwa zostanie ustalona w biblii świata.
+PrawkoNaRaz jest marką i wydawcą serii. Bohaterowie działają w fikcyjnym **OSK Kierunek**. Nazwa oraz geometria głównej lokacji są już kanoniczne; trwa projektowanie jej warstwy wizualnej.
