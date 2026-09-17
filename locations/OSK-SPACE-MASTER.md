@@ -4,7 +4,7 @@
 > **Uniwersum:** PrawkoNaRaz — Historie z L-ki
 > **Zakres:** stała przestrzeń fikcyjnego OSK
 > **Wersja:** 1.0
-> **Nazwa OSK:** jeszcze nieustalona; nie wpisywać przypadkowej nazwy do scenariuszy
+> **Nazwa OSK:** **OSK Kierunek** — nazwa kanoniczna
 
 ## 1. Główna zasada przestrzeni
 
@@ -56,6 +56,6 @@ Jedna sala pozwala naturalnie krzyżować historie bohaterów. Jacek może wraca
 
 ## 7. Granice obecnego kanonu
 
-Na tym etapie nie ustalamy jeszcze: nazwy fikcyjnego OSK, miasta, dokładnego adresu, wyglądu elewacji, kolorystyki wnętrza, modelu mebli, szczegółowego planu pomieszczenia ani finalnego szyldu/logo.
+Nazwa fikcyjnego ośrodka jest ustalona: **OSK Kierunek**. Nadal nie ustalamy miasta, dokładnego adresu, wyglądu elewacji, kolorystyki wnętrza, modelu mebli, szczegółowego planu pomieszczenia ani finalnej formy szyldu/logo.
 
 Te elementy powinny zostać zaprojektowane jako kolejny etap bez naruszania podstawowego układu: **jedno pomieszczenie + trzy biurka + klucze + ekspres + rozkładane krzesła + parking z L-kami**.
