@@ -23,7 +23,7 @@ Patrząc od góry, **wejście znajduje się w dolnej części pomieszczenia, po 
 Stałe stanowiska bohaterów:
 - **Ilona** — górny lewy rejon pomieszczenia;
 - **Ola** — górny prawy rejon pomieszczenia;
-- **Jacek** — dolny lewy rejon, przy ścianie z oknami.
+- **Jacek** — dolny lewy rejon; biurko dosunięte do ściany z oknami i obrócone o 90° względem stanowisk Ilony i Oli. Jacek siedzi plecami do okien i jest zwrócony w kierunku wejścia.
 
 Przy dolnej ścianie, pomiędzy stanowiskiem Jacka a wejściem, znajdują się kolejno **ekspres do kawy** oraz **stałe miejsce na klucze do L-ek**.
 

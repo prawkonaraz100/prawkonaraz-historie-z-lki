@@ -20,7 +20,7 @@ Ten dokument zamraża geometrię głównej lokacji przed wykonaniem finalnych re
 │ OKNO                                        │
 │                                             │
 │ OKNO              WOLNY ŚRODEK              │
-│             [KRZESŁA / GRUPA]               │
+│             GRUPA/KRZESŁA                   │
 │                                             │
 │ OKNO                                        │
 │                                             │
@@ -37,7 +37,7 @@ Rzut jest schematem relacji przestrzennych, a nie projektem technicznym budynku.
 ## 3. Stałe kotwice wizualne
 
 1. Trzy okna na lewej ścianie.
-2. Trzy stałe stanowiska: Ilona — góra/lewo, Ola — góra/prawo, Jacek — dół/lewo.
+2. Trzy stałe stanowiska: Ilona — góra/lewo, Ola — góra/prawo, Jacek — dół/lewo. Biurko Jacka jest dosunięte do lewej ściany z oknami i obrócone o 90° względem biurek Ilony i Oli; Jacek siedzi plecami do okien i patrzy w kierunku wejścia.
 3. Ekspres przy dolnej części pomieszczenia, niedaleko stanowiska Jacka.
 4. Strefa kluczy do L-ek pomiędzy ekspresem a wejściem.
 5. Wejście w dolnej części po prawej stronie.
