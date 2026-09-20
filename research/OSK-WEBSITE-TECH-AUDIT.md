@@ -310,3 +310,88 @@ Audyt można oznaczyć jako **COMPLETE — POLSKA** dopiero, gdy spełnione będ
 7. dopiero przy 100% rozpoznanych domen lub jawnie opisanych wyjątkach dokument zmieni status na COMPLETE.
 
 **Aktualny status: IN PROGRESS — wszystkie 16 województw objęte wyszukiwaniem, ale enumeracja wszystkich powiatowych rejestrów i wszystkich domen jeszcze nie jest kompletna.**
+
+
+---
+
+# 12. Przebieg 3 — rozszerzenie enumeracji i kontrola źródła populacji
+
+## Potwierdzone kolejne WordPressy
+
+### OSK 4KÓŁKA — Jastrzębie-Zdrój
+- URL: https://www.4-kolka.pl/
+- Technologia: **WordPress**
+- Pewność: **wysoka**
+- Dowód: publiczny materiał wideo jest serwowany z `/wp-content/uploads/2021/10/Katowicka.mp4`.
+- Lokalizacja wykryta w serwisie: Jastrzębie-Zdrój.
+
+### OSK Danuta — Wrocław
+- URL: http://www.oskdanuta.pl/
+- Technologia: **WordPress (historycznie potwierdzone)**
+- Pewność: **wysoka dla zarchiwizowanego stanu technicznego**
+- Dowód: publiczny audyt zasobów wykrywał `/wp-content/themes/`, `/wp-content/uploads/` oraz WordPress 4.7.12.
+- Uwaga: przed zaliczeniem domeny do bieżącej populacji 2026 należy osobno potwierdzić aktywność strony.
+
+## Dodatkowe domeny OSK znalezione w enumeracji — technologia do inspekcji
+
+### Lubuskie
+- http://www.mikrus.net/ — MIKRUS, Gorzów Wielkopolski
+- http://www.l-kierowca.pl/ — OSK KIEROWCA Damian Badura, Strzelce Krajeńskie
+- http://www.oskjagodzinski.pl/ — OSK Jacek Jagodziński, Międzyrzecz
+
+Te domeny zostały odnalezione w publicznym katalogu instytucji kształcących kierowców. Sam katalog nie dostarcza jednak wystarczającego dowodu technologicznego, dlatego pozostają w kolejce do inspekcji zamiast być zgadywane.
+
+## Walidacja rejestru źródłowego
+
+Ustawa o kierujących pojazdami potwierdza, że działalność OSK jest działalnością regulowaną i wymaga wpisu do rejestru przedsiębiorców prowadzących OSK. W rejestrze znajdują się dane przedsiębiorcy i numer ewidencyjny OSK.
+
+Publiczne źródła samorządowe pokazują jednak, że dane są rozproszone:
+- Kielce kierują do konkretnego rekordu Portalu Starosty PWPW;
+- powiat kielecki kieruje do własnego rekordu PWPW;
+- powiat jasielski publikuje własny wykaz tabelaryczny;
+- inne powiaty publikują PDF, HTML albo odsyłacz do PWPW.
+
+Portal PWPW `starosta.osk.pwpw.pl` nie jest obecnie możliwy do masowego odczytu przez używane narzędzie badawcze. W konsekwencji nie wolno twierdzić, że mamy już kompletną populację wszystkich OSK tylko dlatego, że przeszukaliśmy wszystkie województwa.
+
+## Stan licznika po przebiegu 3
+
+- województwa objęte wyszukiwaniem: **16 / 16**
+- WordPress potwierdzony: **13 aktywnych/bezpośrednio potwierdzonych + 1 historycznie potwierdzony OSK Danuta**
+- Wix potwierdzony: **1**
+- Joomla: **1 aktywna domena + 1 historyczny przypadek**
+- dodatkowe domeny w kolejce do inspekcji: **co najmniej 3**
+- kompletność wszystkich zarejestrowanych OSK w Polsce: **NIEOSIĄGNIĘTA**
+- status dokumentu: **IN PROGRESS**
+
+## Dlaczego nie podajemy fałszywego „100%”
+
+Przykładowy jawny rejestr jednego powiatu (Jasło) zawiera wiele OSK, w tym RENE, RENOMA i MOTO-SZKOŁA. Sam fakt wpisu do rejestru nie oznacza jednak posiadania własnej strony internetowej. Klasyfikacja całej Polski wymaga więc dwóch oddzielnych zbiorów:
+
+1. **POPULACJA OSK** — każdy aktywny wpis administracyjny;
+2. **POPULACJA DOMEN OSK** — domena przypisana do wpisu albo jawny status `BRAK WŁASNEJ STRONY`.
+
+Dopiero drugi zbiór można klasyfikować według CMS/frameworka.
+
+## Format docelowego rekordu
+
+Każdy OSK w pełnym zbiorze powinien mieć rekord:
+
+`województwo | powiat | nr OSK | nazwa | miejscowość | domena | status domeny | technologia | dowód | data sprawdzenia`
+
+Dozwolone statusy technologiczne:
+- `WORDPRESS`
+- `WIX`
+- `JOOMLA`
+- `DRUPAL`
+- `WEBFLOW`
+- `SQUARESPACE`
+- `CUSTOM_PHP`
+- `LARAVEL`
+- `REACT/NEXT`
+- `VUE/NUXT`
+- `INNY_CMS`
+- `NIEROZPOZNANE`
+- `BRAK_STRONY`
+- `DOMENA_MARTWA`
+
+Ta klasyfikacja ma zapobiec wrzucaniu OSK bez strony do sztucznej kategorii „nierozpoznane”.
