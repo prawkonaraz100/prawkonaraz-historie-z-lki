@@ -115,6 +115,11 @@ URL: https://www.osk.katowice.pl/
 Technologia: WordPress  
 Dowód: publiczny obraz strony jest serwowany z `/wp-content/uploads/2025/12/IMG-20251126-WA0000-700x514.jpg`.
 
+### 22
+URL: https://szkola.enigma.kielce.pl/  
+Technologia: WordPress  
+Dowód: publicznie indeksowana strona zwraca ścieżkę uploadu `/szkola_jazdy/wp-content/uploads`, jednoznacznie wskazując strukturę WordPress.
+
 ## Historycznie potwierdzone — wymagają ponownej kontroli aktualnego stanu
 
 ### H1
