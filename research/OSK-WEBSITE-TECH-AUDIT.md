@@ -198,3 +198,115 @@ Aby zbliżyć się do szerokiego obrazu całego polskiego rynku, kolejny etap po
 - wykryć CMS/framework oraz dostawcę hostingu/CDN, jeśli publicznie rozpoznawalny;
 - oddzielić aktywne strony OSK od katalogów, agregatorów i nieaktywnych domen;
 - dopisywać wyniki do tego samego dokumentu zamiast tworzyć równoległe raporty.
+
+
+---
+
+# 8. Przebieg ogólnopolski — pokrycie 16 województw
+
+Drugi przebieg rozszerza badanie z luźnej próbki na **systematyczne pokrycie całej Polski**. Jednostką pokrycia jest województwo, a punktem startowym miasta wojewódzkie oraz duże ośrodki egzaminacyjne. To nadal nie oznacza, że każda istniejąca domena OSK została już odnaleziona: oficjalny rejestr działalności regulowanej prowadzony jest przez właściwych starostów/prezydentów miast, a nie jako jedna kompletna lista domen internetowych.
+
+| Województwo | Miasta / obszary objęte wyszukiwaniem | Przykładowy aktywny serwis OSK znaleziony w przebiegu | Stan |
+|---|---|---|---|
+| dolnośląskie | Wrocław | https://drivewars.pl/ | pokryte |
+| kujawsko-pomorskie | Bydgoszcz, Toruń, Inowrocław | https://inowroclawosk.pl/ | pokryte |
+| lubelskie | Lublin, Opole Lubelskie | https://luz.lublin.pl/ ; https://dario-lublin.pl/ ; https://www.naukajazdy.ns48.pl/ | pokryte |
+| lubuskie | Zielona Góra, Gorzów Wlkp. | wyszukiwanie wykonane; lista domen wymaga dalszej enumeracji | pokryte wyszukiwaniem |
+| łódzkie | Łódź | wyszukiwanie wykonane; lista domen wymaga dalszej enumeracji | pokryte wyszukiwaniem |
+| małopolskie | Kraków, Niepołomice, Chrzanów | https://www.osknavigator.pl/ ; https://makart.pl/ | pokryte |
+| mazowieckie | Warszawa, Radzymin | https://warszawa.szkola-oes.pl/ ; https://osk.malibu.auto.pl/ ; https://www.osk-classic.pl/ | pokryte |
+| opolskie | Opole, Kluczbork | https://ocsk.pl/ ; https://oskopole.pl/ ; https://www.osk-atut.pl/ | pokryte |
+| podkarpackie | Rzeszów, Krosno, Jasło, Sanok, Tarnobrzeg | https://www.zubrzycki.osk.info.pl/ ; https://duetosk.pl/ ; https://www.naukajazdy-upiotra.pl/ | pokryte |
+| podlaskie | Białystok | https://szal.bialystok.pl/ | pokryte |
+| pomorskie | Gdańsk, Gdynia | https://osklevelgdansk.pl/ ; https://www.osk-oskar.pl/ | pokryte |
+| śląskie | Katowice, Cieszyn, Skoczów | https://www.osk.katowice.pl/ ; https://lbrudny.pl/osk/ | pokryte |
+| świętokrzyskie | Kielce, Ostrowiec Świętokrzyski | https://dobrejazdy.pl/ ; https://superkursy.com.pl/ | pokryte |
+| warmińsko-mazurskie | Olsztyn | https://www.jkk.olsztyn.pl/ | pokryte |
+| wielkopolskie | Poznań i powiat poznański | https://www.osk.poznan.pl/ | pokryte |
+| zachodniopomorskie | Szczecin | https://oskar.szczecin.pl/ ; https://oskbisszczecin.pl/ | pokryte |
+
+## Oficjalne źródło populacji OSK
+
+Dla kompletnej enumeracji nie wystarczy wyszukiwarka. Rejestry przedsiębiorców prowadzących OSK są jawne i prowadzone przez właściwych starostów / prezydentów miast. Przykłady znalezione w tym przebiegu:
+
+- Kielce: miejski wykaz OSK wskazuje również centralny serwis rejestrowy PWPW `starosta.osk.pwpw.pl`;
+- Wrocław: BIP podaje bezpośredni rejestr OSK w systemie PWPW;
+- Poznań: miejski BIP publikuje jawny rejestr OSK, a powiat poznański publikuje aktualizowane wykazy;
+- Białystok: BIP prowadzi jawny rejestr przedsiębiorców prowadzących OSK;
+- Szczecin: e-Urząd publikuje szczegółowy rejestr wraz z biurem, salą, placem, kategoriami i pojazdami.
+
+**Wniosek metodologiczny:** aby uczciwie nazwać wynik „cała Polska”, trzeba najpierw wyciągnąć populację OSK z rejestrów administracyjnych dla wszystkich powiatów/miast na prawach powiatu, a dopiero później dla każdego podmiotu odnaleźć domenę i sklasyfikować technologię. Sam Google/Bing nie daje gwarancji kompletności.
+
+---
+
+# 9. Nowe serwisy i klasyfikacje z przebiegu ogólnopolskiego
+
+## WordPress — dodatkowo potwierdzone
+
+### MAKART — Chrzanów
+- URL: https://makart.pl/
+- Technologia: **WordPress**
+- Pewność: **wysoka**
+- Dowód: liczne zasoby `/wp-content/uploads/`.
+
+### OSK DUET — Krosno / Jasło / Sanok
+- URL: https://duetosk.pl/
+- Technologia: **WordPress**
+- Pewność: **wysoka**
+- Dowód: materiały wideo i media pod `/wp-content/uploads/`.
+
+### Superkursy / powiązane ośrodki — Ostrowiec Świętokrzyski
+- URL: https://superkursy.com.pl/
+- Technologia: **WordPress**
+- Pewność: **wysoka**
+- Dowód: aktualności i obrazy pod `/wp-content/uploads/`.
+
+### OSK Michał
+- URL: https://www.oskmichal.pl/
+- Technologia: **WordPress**
+- Pewność: **wysoka**
+- Dowód: publiczny kod treści zawiera shortcode'y buildera oraz media `/wp-content/uploads/`.
+
+## Joomla — potwierdzone
+
+### OSK Tomasz Kocon — Opole Lubelskie
+- URL: https://www.naukajazdy.ns48.pl/index.php
+- Technologia: **Joomla**
+- Pewność: **bardzo wysoka**
+- Dowód: publicznie indeksowana strona zawiera jawny ślad modułu „google maps module for joomla 3”.
+
+### NOT — Ośrodek Szkolenia Kierowców — Opole
+- Technologia historycznie wykryta: **Joomla**
+- Pewność: **wysoka dla zindeksowanej wersji**
+- Dowód: zindeksowany opis serwisu zawiera jawne „joomla! - the dynamic portal engine and content management system”.
+- Uwaga: przed zaliczeniem do aktualnie aktywnych domen trzeba ponownie zweryfikować bieżący adres strony; wynik pochodzi z profilu/katalogu szkoły.
+
+---
+
+# 10. Aktualny bilans technologii
+
+| Technologia | Potwierdzone przykłady | Stan dowodowy |
+|---|---:|---|
+| WordPress | **12** | bezpośrednie ślady WP w publicznych zasobach |
+| Wix | **1** | bezpośrednie assety Wix |
+| Joomla | **1 aktywna domena + 1 historycznie wykryty serwis** | jawne sygnatury Joomla |
+| Custom / inny CMS / framework | jeszcze bez uczciwego potwierdzenia | wymaga inspekcji |
+| Nierozpoznane | wiele | nie przypisujemy technologii bez dowodu |
+
+Liczby nie są jeszcze udziałem procentowym całego rynku. Są liczbą **potwierdzonych technologicznie przypadków** w obecnym audycie.
+
+---
+
+# 11. Kryterium ukończenia „całej Polski”
+
+Audyt można oznaczyć jako **COMPLETE — POLSKA** dopiero, gdy spełnione będą łącznie:
+
+1. zebrane zostaną aktualne rejestry OSK ze wszystkich powiatów i miast na prawach powiatu albo równoważny kompletny zbiór PWPW;
+2. każdy aktywny podmiot zostanie znormalizowany i zdeduplikowany;
+3. dla każdego podmiotu zostanie ustalone: `ma stronę / brak strony / strona nieaktywna / domena nierozpoznana`;
+4. każda aktywna domena zostanie sprawdzona technicznie;
+5. technologia będzie przypisana tylko z dowodem;
+6. wynik będzie zawierał licznik pokrycia: `sklasyfikowane / wszystkie aktywne domeny`;
+7. dopiero przy 100% rozpoznanych domen lub jawnie opisanych wyjątkach dokument zmieni status na COMPLETE.
+
+**Aktualny status: IN PROGRESS — wszystkie 16 województw objęte wyszukiwaniem, ale enumeracja wszystkich powiatowych rejestrów i wszystkich domen jeszcze nie jest kompletna.**
