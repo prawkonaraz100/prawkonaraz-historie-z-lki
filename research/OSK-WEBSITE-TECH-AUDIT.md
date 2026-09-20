@@ -154,6 +154,41 @@ URL: http://www.oskjagodzinski.pl/
 Technologia: Nierozpoznana  
 Dowód: domena OSK została odnaleziona w publicznym katalogu; technologia nie została jeszcze technicznie zweryfikowana.
 
+### N7
+URL: https://alejazda.olsztyn.pl/  
+Technologia: Nierozpoznana  
+Dowód: aktywna oficjalna strona OSK została potwierdzona; w publicznie pobranej treści nie znaleziono jeszcze jednoznacznego fingerprintu CMS/frameworka.
+
+### N8
+URL: https://www.jkk.olsztyn.pl/  
+Technologia: Nierozpoznana  
+Dowód: aktywna oficjalna strona OSK została potwierdzona; dotychczasowy publiczny odczyt nie ujawnił jednoznacznego fingerprintu CMS/frameworka.
+
+### N9
+URL: https://www.driverolsztyn.iosk.pl/  
+Technologia: Nierozpoznana  
+Dowód: aktywna strona OSK Driver została potwierdzona na subdomenie `iosk.pl`; wspólna domena platformowa sugeruje usługę dla OSK, ale bez dowodu nie przypisujemy konkretnej technologii.
+
+### N10
+URL: https://www.campus.olsztyn.pl/  
+Technologia: Nierozpoznana  
+Dowód: aktywna oficjalna strona OSK została potwierdzona; publiczny odczyt HTML/treści nie dał jeszcze jednoznacznej sygnatury WordPress/Joomla/Wix/frameworka.
+
+### N11
+URL: https://www.fokus.olsztyn.pl/  
+Technologia: Nierozpoznana  
+Dowód: aktywna oficjalna strona OSK Fokus została potwierdzona; technologia wymaga dalszej inspekcji assetów i kodu źródłowego.
+
+### N12
+URL: https://sis-car.eu/  
+Technologia: Nierozpoznana  
+Dowód: aktywna oficjalna strona szkoły jazdy SIS-CAR Szczecin została potwierdzona; publiczny odczyt nie ujawnił jeszcze jednoznacznego fingerprintu CMS/frameworka.
+
+### N13
+URL: https://www.mars.szczecin.pl/  
+Technologia: Nierozpoznana  
+Dowód: aktywna oficjalna strona szkoły jazdy MARS Szczecin została potwierdzona; technologia wymaga dalszej inspekcji kodu i assetów.
+
 ## Format obowiązkowy dla kolejnych wpisów
 
 ```text
