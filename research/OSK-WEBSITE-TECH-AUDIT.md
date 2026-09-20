@@ -189,6 +189,46 @@ URL: https://www.mars.szczecin.pl/
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona szkoły jazdy MARS Szczecin została potwierdzona; technologia wymaga dalszej inspekcji kodu i assetów.
 
+### N14
+URL: https://www.osk-szulc.pl/  
+Technologia: Nierozpoznana  
+Dowód: aktywna oficjalna strona OSK Szulc w Bydgoszczy została odnaleziona; dotychczasowy publiczny odczyt nie ujawnił jednoznacznego fingerprintu CMS/frameworka.
+
+### N15
+URL: https://www.autoster.pl/  
+Technologia: Nierozpoznana  
+Dowód: aktywna oficjalna strona szkoły jazdy Auto-Ster w Bydgoszczy została odnaleziona; technologia wymaga inspekcji kodu źródłowego i assetów.
+
+### N16
+URL: https://oskpiotr.pl/  
+Technologia: Nierozpoznana  
+Dowód: aktywna oficjalna strona OSK Piotr w Bydgoszczy została odnaleziona; brak jeszcze jednoznacznego publicznego śladu CMS/frameworka.
+
+### N17
+URL: https://oskefekt.pl/  
+Technologia: Nierozpoznana  
+Dowód: aktywna oficjalna strona OSK Efekt w Bydgoszczy została odnaleziona; technologia nie została jeszcze potwierdzona fingerprintem.
+
+### N18
+URL: https://oskmentor.pl/  
+Technologia: Nierozpoznana  
+Dowód: aktywna oficjalna strona OSK Mentor w Toruniu została odnaleziona; technologia wymaga dalszej inspekcji HTML i assetów.
+
+### N19
+URL: https://osk-kierowca.pl/  
+Technologia: Nierozpoznana  
+Dowód: aktywna oficjalna strona OSK Kierowca w Toruniu została odnaleziona; dotychczas nie potwierdzono jednoznacznego CMS/frameworka.
+
+### N20
+URL: https://www.oskauto.pl/  
+Technologia: Nierozpoznana  
+Dowód: aktywna oficjalna strona OSK Auto w Toruniu została odnaleziona; technologia wymaga dalszej weryfikacji technicznej.
+
+### N21
+URL: https://oskperfect.pl/  
+Technologia: Nierozpoznana  
+Dowód: aktywna oficjalna strona OSK Perfect w Łodzi została odnaleziona; brak jeszcze technicznego fingerprintu pozwalającego uczciwie przypisać CMS/framework.
+
 ## Format obowiązkowy dla kolejnych wpisów
 
 ```text
