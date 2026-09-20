@@ -85,41 +85,51 @@ URL: https://www.naukajazdy.ns48.pl/index.php
 Technologia: Joomla  
 Dowód: publicznie indeksowana strona zawiera jawny ślad modułu opisanego jako `google maps module for joomla 3`.
 
+### 16
+URL: https://szybkibill.net/  
+Technologia: WordPress  
+Dowód: publiczne dokumenty są serwowane z `/wp-content/uploads/2025/10/`. cite: turn1search0
+
+### 17
+URL: https://naukajazdy360.pl/  
+Technologia: Joomla  
+Dowód: publiczna strona renderuje komunikat modułu `OS Responsive Image Gallery Joomla module`. cite: turn0search9
+
 ## Historycznie potwierdzone — wymagają ponownej kontroli aktualnego stanu
 
-### 16
+### H1
 URL: http://www.oskdanuta.pl/  
 Technologia: WordPress  
 Dowód: wcześniejszy publiczny audyt zasobów wykrywał `/wp-content/themes/`, `/wp-content/uploads/` oraz WordPress 4.7.12.
 
 ## Nierozpoznane — do sprawdzenia
 
-### 17
+### N1
 URL: https://www.osk-classic.pl/  
 Technologia: Nierozpoznana  
 Dowód: brak wystarczającego technicznego śladu CMS/frameworka w dotychczasowym przebiegu.
 
-### 18
+### N2
 URL: https://www.osk-kurzawa.pl/  
 Technologia: Nierozpoznana  
 Dowód: poprzednie pełne pobranie strony zakończyło się timeoutem; należy ponowić inspekcję HTML, assetów i nagłówków.
 
-### 19
+### N3
 URL: https://www.zubrzycki.osk.info.pl/  
 Technologia: Nierozpoznana  
 Dowód: domena została odnaleziona, ale dotychczas nie potwierdzono publicznego śladu konkretnego CMS/frameworka.
 
-### 20
+### N4
 URL: http://www.mikrus.net/  
 Technologia: Nierozpoznana  
 Dowód: domena OSK została odnaleziona w publicznym katalogu; technologia nie została jeszcze technicznie zweryfikowana.
 
-### 21
+### N5
 URL: http://www.l-kierowca.pl/  
 Technologia: Nierozpoznana  
 Dowód: domena OSK została odnaleziona w publicznym katalogu; technologia nie została jeszcze technicznie zweryfikowana.
 
-### 22
+### N6
 URL: http://www.oskjagodzinski.pl/  
 Technologia: Nierozpoznana  
 Dowód: domena OSK została odnaleziona w publicznym katalogu; technologia nie została jeszcze technicznie zweryfikowana.
