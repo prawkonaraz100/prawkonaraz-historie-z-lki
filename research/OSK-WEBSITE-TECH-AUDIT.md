@@ -95,6 +95,26 @@ URL: https://naukajazdy360.pl/
 Technologia: Joomla  
 Dowód: publiczna strona renderuje komunikat modułu `OS Responsive Image Gallery Joomla module`. cite: turn0search9
 
+### 18
+URL: https://jazdazdrozdem.pl/  
+Technologia: WordPress  
+Dowód: publiczny obraz strony jest serwowany z `/wp-content/uploads/2025/12/42.webp`.
+
+### 19
+URL: https://osklevelgdansk.pl/  
+Technologia: WordPress  
+Dowód: publiczny obraz strony jest serwowany z `/wp-content/uploads/2026/04/34623.jpg`.
+
+### 20
+URL: https://www.osk-oskar.pl/  
+Technologia: WordPress  
+Dowód: publiczny obraz strony jest serwowany z `/wp-content/uploads/2020/02/driving_school-35.jpg`.
+
+### 21
+URL: https://www.osk.katowice.pl/  
+Technologia: WordPress  
+Dowód: publiczny obraz strony jest serwowany z `/wp-content/uploads/2025/12/IMG-20251126-WA0000-700x514.jpg`.
+
 ## Historycznie potwierdzone — wymagają ponownej kontroli aktualnego stanu
 
 ### H1
