@@ -120,6 +120,76 @@ URL: https://szkola.enigma.kielce.pl/
 Technologia: WordPress  
 Dowód: publicznie indeksowana strona zwraca ścieżkę uploadu `/szkola_jazdy/wp-content/uploads`, jednoznacznie wskazując strukturę WordPress.
 
+### 23
+URL: https://www.driverolsztyn.iosk.pl/  
+Technologia: iOSK (platforma hostowana)  
+Dowód: serwis działa na subdomenie `*.iosk.pl`, a publiczne assety są serwowane ze standaryzowanej ścieżki `/szkola/22950/www/`; platforma używa także tras `*.htm`.
+
+### 24
+URL: https://www.campus.olsztyn.pl/  
+Technologia: WordPress  
+Dowód: publiczny obraz strony jest serwowany z `/wp-content/uploads/2024/04/20240304_111457-790x1024.jpg`.
+
+### 25
+URL: https://sis-car.eu/  
+Technologia: WordPress  
+Dowód: publiczne obrazy strony są serwowane z `/wp-content/uploads/`, m.in. `/wp-content/uploads/2026/01/photo-output_1.jpg`.
+
+### 26
+URL: https://oskpiotr.pl/  
+Technologia: WordPress  
+Dowód: publiczne zasoby są serwowane z `/wp-content/uploads/2017/08/home_38.png` oraz `/wp-content/plugins/`.
+
+### 27
+URL: https://www.osknaluzie.iosk.pl/  
+Technologia: iOSK (platforma hostowana)  
+Dowód: serwis działa na subdomenie `*.iosk.pl`, a publiczne assety są serwowane ze standaryzowanej ścieżki `/szkola/22490/www/`.
+
+### 28
+URL: https://www.automotor.iosk.pl/  
+Technologia: iOSK (platforma hostowana)  
+Dowód: serwis działa na subdomenie `*.iosk.pl`, a publiczne assety są serwowane ze standaryzowanej ścieżki `/szkola/22371/www/`.
+
+### 29
+URL: https://www.motobit.iosk.pl/  
+Technologia: iOSK (platforma hostowana)  
+Dowód: serwis działa na subdomenie `*.iosk.pl`, a publiczne assety są serwowane ze standaryzowanej ścieżki `/szkola/2162/www/`.
+
+### 30
+URL: https://www.prekursor.iosk.pl/  
+Technologia: iOSK (platforma hostowana)  
+Dowód: serwis działa na subdomenie `*.iosk.pl`, a publiczne assety są serwowane ze standaryzowanej ścieżki `/szkola/9617/www/`.
+
+### 31
+URL: https://www.bestbart.iosk.pl/  
+Technologia: iOSK (platforma hostowana)  
+Dowód: serwis działa na subdomenie `*.iosk.pl`, a publiczne assety są serwowane ze standaryzowanej ścieżki `/szkola/22914/www/`.
+
+### 32
+URL: https://www.prymus.iosk.pl/  
+Technologia: iOSK (platforma hostowana)  
+Dowód: serwis działa na subdomenie `*.iosk.pl`, a publiczne assety są serwowane ze standaryzowanej ścieżki `/szkola/10632/www/`.
+
+### 33
+URL: https://www.i-kar.iosk.pl/  
+Technologia: iOSK (platforma hostowana)  
+Dowód: serwis działa na subdomenie `*.iosk.pl`, a publiczne logo jest serwowane ze standaryzowanej ścieżki `/szkola/690/logo/`.
+
+### 34
+URL: https://www.rewelka.iosk.pl/  
+Technologia: iOSK (platforma hostowana)  
+Dowód: serwis działa na subdomenie `*.iosk.pl`, a publiczne assety są serwowane ze standaryzowanej ścieżki `/szkola/22258/www/`.
+
+### 35
+URL: https://www.quattro.iosk.pl/  
+Technologia: iOSK (platforma hostowana)  
+Dowód: serwis działa na subdomenie `*.iosk.pl`, a publiczne assety są serwowane ze standaryzowanej ścieżki `/szkola/9825/www/`.
+
+### 36
+URL: https://oskefekt.pl/  
+Technologia: Statyczny HTML  
+Dowód: nawigacja prowadzi bezpośrednio do plików `index.html`, `oferta.html`, `galeria.html` i `kontakt.html`, a publiczne media są serwowane z katalogu `/images/`.
+
 ## Historycznie potwierdzone — wymagają ponownej kontroli aktualnego stanu
 
 ### H1
@@ -170,66 +240,41 @@ Technologia: Nierozpoznana
 Dowód: aktywna oficjalna strona OSK została potwierdzona; dotychczasowy publiczny odczyt nie ujawnił jednoznacznego fingerprintu CMS/frameworka.
 
 ### N9
-URL: https://www.driverolsztyn.iosk.pl/  
-Technologia: Nierozpoznana  
-Dowód: aktywna strona OSK Driver została potwierdzona na subdomenie `iosk.pl`; wspólna domena platformowa sugeruje usługę dla OSK, ale bez dowodu nie przypisujemy konkretnej technologii.
-
-### N10
-URL: https://www.campus.olsztyn.pl/  
-Technologia: Nierozpoznana  
-Dowód: aktywna oficjalna strona OSK została potwierdzona; publiczny odczyt HTML/treści nie dał jeszcze jednoznacznej sygnatury WordPress/Joomla/Wix/frameworka.
-
-### N11
 URL: https://www.fokus.olsztyn.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Fokus została potwierdzona; technologia wymaga dalszej inspekcji assetów i kodu źródłowego.
 
-### N12
-URL: https://sis-car.eu/  
-Technologia: Nierozpoznana  
-Dowód: aktywna oficjalna strona szkoły jazdy SIS-CAR Szczecin została potwierdzona; publiczny odczyt nie ujawnił jeszcze jednoznacznego fingerprintu CMS/frameworka.
-
-### N13
+### N10
 URL: https://www.mars.szczecin.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona szkoły jazdy MARS Szczecin została potwierdzona; technologia wymaga dalszej inspekcji kodu i assetów.
 
-### N14
+### N11
 URL: https://www.osk-szulc.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Szulc w Bydgoszczy została odnaleziona; dotychczasowy publiczny odczyt nie ujawnił jednoznacznego fingerprintu CMS/frameworka.
 
-### N15
+### N12
 URL: https://www.autoster.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona szkoły jazdy Auto-Ster w Bydgoszczy została odnaleziona; technologia wymaga inspekcji kodu źródłowego i assetów.
 
-### N16
-URL: https://oskpiotr.pl/  
-Technologia: Nierozpoznana  
-Dowód: aktywna oficjalna strona OSK Piotr w Bydgoszczy została odnaleziona; brak jeszcze jednoznacznego publicznego śladu CMS/frameworka.
-
-### N17
-URL: https://oskefekt.pl/  
-Technologia: Nierozpoznana  
-Dowód: aktywna oficjalna strona OSK Efekt w Bydgoszczy została odnaleziona; technologia nie została jeszcze potwierdzona fingerprintem.
-
-### N18
+### N13
 URL: https://oskmentor.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Mentor w Toruniu została odnaleziona; technologia wymaga dalszej inspekcji HTML i assetów.
 
-### N19
+### N14
 URL: https://osk-kierowca.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Kierowca w Toruniu została odnaleziona; dotychczas nie potwierdzono jednoznacznego CMS/frameworka.
 
-### N20
+### N15
 URL: https://www.oskauto.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Auto w Toruniu została odnaleziona; technologia wymaga dalszej weryfikacji technicznej.
 
-### N21
+### N16
 URL: https://oskperfect.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Perfect w Łodzi została odnaleziona; brak jeszcze technicznego fingerprintu pozwalającego uczciwie przypisać CMS/framework.
