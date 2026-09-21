@@ -1,0 +1,126 @@
+name: Quality Gate
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  quality-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate repository integrity
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          import sys
+
+          root = Path(".")
+          errors = []
+
+          required_files = [
+              Path("README.md"),
+              Path("characters/jacek/JACEK-MASTER.md"),
+              Path("characters/jacek/reference/JACEK-MASTER-v1.jpg"),
+              Path("characters/ola/OLA-MASTER.md"),
+              Path("characters/ola/reference/OLA-MASTER-v1.jpg"),
+              Path("characters/ilona/ILONA-MASTER.md"),
+              Path("characters/ilona/reference/PANI-ILONA-MASTER-v1.png"),
+              Path("world/RELATIONSHIPS-MASTER.md"),
+              Path("locations/OSK-LOCATION-MASTER.md"),
+              Path("locations/OSK-SPACE-MASTER.md"),
+              Path("locations/reference/K01-MASTER-WIDE-v1.png"),
+              Path("vehicles/hyundai-i20/HYUNDAI-I20-MASTER.md"),
+              Path("research/OSK-WEBSITE-TECH-AUDIT.md"),
+          ]
+
+          for path in required_files:
+              if not path.is_file():
+                  errors.append(f"Missing required canonical file: {path}")
+
+          text_extensions = {".md", ".yml", ".yaml", ".txt", ".json"}
+          conflict_re = re.compile(r"^(<<<<<<<|=======|>>>>>>>)", re.MULTILINE)
+
+          for path in root.rglob("*"):
+              if not path.is_file() or ".git" in path.parts:
+                  continue
+              if path.suffix.lower() not in text_extensions:
+                  continue
+              try:
+                  content = path.read_text(encoding="utf-8")
+              except UnicodeDecodeError as exc:
+                  errors.append(f"Non-UTF-8 text file: {path}: {exc}")
+                  continue
+              if conflict_re.search(content):
+                  errors.append(f"Merge conflict marker found in: {path}")
+
+          audit_path = Path("research/OSK-WEBSITE-TECH-AUDIT.md")
+          if audit_path.is_file():
+              audit = audit_path.read_text(encoding="utf-8")
+              lines = audit.splitlines()
+              entries = []
+              i = 0
+
+              while i < len(lines):
+                  if lines[i].startswith("### "):
+                      heading = lines[i][4:].strip()
+                      i += 1
+                      block = []
+                      while i < len(lines) and not lines[i].startswith("### ") and not lines[i].startswith("## "):
+                          if lines[i].strip():
+                              block.append(lines[i].strip())
+                          i += 1
+
+                      if len(block) < 3:
+                          errors.append(f"Audit entry {heading!r} has fewer than 3 non-empty fields")
+                          continue
+
+                      expected = ("URL:", "Technologia:", "Dowód:")
+                      for idx, prefix in enumerate(expected):
+                          if idx >= len(block) or not block[idx].startswith(prefix):
+                              errors.append(
+                                  f"Audit entry {heading!r}: field {idx + 1} must start with {prefix!r}"
+                              )
+
+                      if len(block) > 3:
+                          errors.append(
+                              f"Audit entry {heading!r} has extra content; expected exactly URL/Technologia/Dowód"
+                          )
+
+                      if block and block[0].startswith("URL:"):
+                          url = block[0][4:].strip()
+                          entries.append((heading, url))
+                      continue
+                  i += 1
+
+              seen = {}
+              for heading, url in entries:
+                  if url in seen:
+                      errors.append(
+                          f"Duplicate audit URL {url!r} in entries {seen[url]!r} and {heading!r}"
+                      )
+                  else:
+                      seen[url] = heading
+
+              if not entries:
+                  errors.append("OSK audit contains no entries")
+
+          if errors:
+              print("QUALITY GATE FAILED")
+              for error in errors:
+                  print(f"- {error}")
+              sys.exit(1)
+
+          print("QUALITY GATE PASSED")
+          PY

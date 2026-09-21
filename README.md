@@ -19,6 +19,19 @@ Pliki oznaczone jako `MASTER` są nadrzędnymi referencjami. Nowy scenariusz, gr
 - `production/` — zasady produkcji, głosu, montażu i publikacji
 - `assets/` — pozostałe zatwierdzone materiały produkcyjne
 
+## Quality Gate
+
+Repozytorium ma automatyczny Quality Gate w `.github/workflows/quality-gate.yml`. Uruchamia się dla pull requestów oraz pushy do `main`.
+
+Gate sprawdza:
+- obecność aktualnych plików kanonicznych MASTER i ich zatwierdzonych referencji,
+- poprawne kodowanie UTF-8 plików tekstowych,
+- brak pozostawionych markerów konfliktu merge,
+- strukturę `research/OSK-WEBSITE-TECH-AUDIT.md` — każdy wpis ma dokładnie pola `URL`, `Technologia`, `Dowód`,
+- brak zduplikowanych adresów URL w audycie OSK.
+
+Zmiany nie są uznawane za ukończone bez zakończonego wynikiem PASS Quality Gate dla właściwego HEAD.
+
 ## Aktualny etap
 
 Najpierw projektujemy kompletne uniwersum. Nie rozpoczynamy seryjnej produkcji odcinków, dopóki główne postacie, świat i zasady wizualne nie mają zatwierdzonych referencji.
