@@ -190,6 +190,11 @@ URL: https://oskefekt.pl/
 Technologia: Statyczny HTML  
 Dowód: nawigacja prowadzi bezpośrednio do plików `index.html`, `oferta.html`, `galeria.html` i `kontakt.html`, a publiczne media są serwowane z katalogu `/images/`.
 
+### 37
+URL: https://www.mars.szczecin.pl/  
+Technologia: GRYF CMS (autorski CMS)  
+Dowód: stopka serwisu prowadzi linkiem „tworzenie stron www Szczecin - CMS” bezpośrednio do `gryf.pl`; serwis GRYF opisuje własny system zarządzania treścią jako „GRYF CMS” i ofertę serwisów WWW z tym CMS.
+
 ## Historycznie potwierdzone — wymagają ponownej kontroli aktualnego stanu
 
 ### H1
@@ -245,36 +250,31 @@ Technologia: Nierozpoznana
 Dowód: aktywna oficjalna strona OSK Fokus została potwierdzona; technologia wymaga dalszej inspekcji assetów i kodu źródłowego.
 
 ### N10
-URL: https://www.mars.szczecin.pl/  
-Technologia: Nierozpoznana  
-Dowód: aktywna oficjalna strona szkoły jazdy MARS Szczecin została potwierdzona; technologia wymaga dalszej inspekcji kodu i assetów.
-
-### N11
 URL: https://www.osk-szulc.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Szulc w Bydgoszczy została odnaleziona; dotychczasowy publiczny odczyt nie ujawnił jednoznacznego fingerprintu CMS/frameworka.
 
-### N12
+### N11
 URL: https://www.autoster.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona szkoły jazdy Auto-Ster w Bydgoszczy została odnaleziona; technologia wymaga inspekcji kodu źródłowego i assetów.
 
-### N13
+### N12
 URL: https://oskmentor.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Mentor w Toruniu została odnaleziona; technologia wymaga dalszej inspekcji HTML i assetów.
 
-### N14
+### N13
 URL: https://osk-kierowca.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Kierowca w Toruniu została odnaleziona; dotychczas nie potwierdzono jednoznacznego CMS/frameworka.
 
-### N15
+### N14
 URL: https://www.oskauto.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Auto w Toruniu została odnaleziona; technologia wymaga dalszej weryfikacji technicznej.
 
-### N16
+### N15
 URL: https://oskperfect.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Perfect w Łodzi została odnaleziona; brak jeszcze technicznego fingerprintu pozwalającego uczciwie przypisać CMS/framework.
