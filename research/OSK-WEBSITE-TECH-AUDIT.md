@@ -205,6 +205,11 @@ URL: https://www.osk-kurzawa.pl/
 Technologia: WordPress  
 Dowód: publiczny obraz strony jest serwowany z `/wp-content/uploads/2025/12/IMG_7810_wynik-scaled.webp`.
 
+### 40
+URL: https://www.zubrzycki.osk.info.pl/  
+Technologia: Drupal  
+Dowód: publiczne zasoby strony są serwowane ze standardowej struktury Drupala `/sites/default/files/`, m.in. z `/sites/default/files/2022-04/logowhite-01.svg`.
+
 ## Historycznie potwierdzone — wymagają ponownej kontroli aktualnego stanu
 
 ### H1
@@ -220,61 +225,56 @@ Technologia: Nierozpoznana
 Dowód: brak wystarczającego technicznego śladu CMS/frameworka w dotychczasowym przebiegu.
 
 ### N2
-URL: https://www.zubrzycki.osk.info.pl/  
-Technologia: Nierozpoznana  
-Dowód: domena została odnaleziona, ale dotychczas nie potwierdzono publicznego śladu konkretnego CMS/frameworka.
-
-### N3
 URL: http://www.mikrus.net/  
 Technologia: Nierozpoznana  
 Dowód: domena OSK została odnaleziona w publicznym katalogu; technologia nie została jeszcze technicznie zweryfikowana.
 
-### N4
+### N3
 URL: http://www.l-kierowca.pl/  
 Technologia: Nierozpoznana  
 Dowód: domena OSK została odnaleziona w publicznym katalogu; technologia nie została jeszcze technicznie zweryfikowana.
 
-### N5
+### N4
 URL: http://www.oskjagodzinski.pl/  
 Technologia: Nierozpoznana  
 Dowód: domena OSK została odnaleziona w publicznym katalogu; technologia nie została jeszcze technicznie zweryfikowana.
 
-### N6
+### N5
 URL: https://alejazda.olsztyn.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK została potwierdzona; w publicznie pobranej treści nie znaleziono jeszcze jednoznacznego fingerprintu CMS/frameworka.
 
-### N7
+### N6
 URL: https://www.jkk.olsztyn.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK została potwierdzona; dotychczasowy publiczny odczyt nie ujawnił jednoznacznego fingerprintu CMS/frameworka.
 
-### N8
+### N7
 URL: https://www.fokus.olsztyn.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Fokus została potwierdzona; technologia wymaga dalszej inspekcji assetów i kodu źródłowego.
 
-### N9
+### N8
 URL: https://www.osk-szulc.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Szulc w Bydgoszczy została odnaleziona; dotychczasowy publiczny odczyt nie ujawnił jednoznacznego fingerprintu CMS/frameworka.
 
-### N10
+### N9
 URL: https://oskmentor.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Mentor w Toruniu została odnaleziona; technologia wymaga dalszej inspekcji HTML i assetów.
 
-### N11
+### N10
 URL: https://osk-kierowca.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Kierowca w Toruniu została odnaleziona; dotychczas nie potwierdzono jednoznacznego CMS/frameworka.
 
-### N12
+### N11
 URL: https://www.oskauto.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Auto w Toruniu została odnaleziona; technologia wymaga dalszej weryfikacji technicznej.
 
-### N13
+### N12
 URL: https://oskperfect.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Perfect w Łodzi została odnaleziona; brak jeszcze technicznego fingerprintu pozwalającego uczciwie przypisać CMS/framework.
