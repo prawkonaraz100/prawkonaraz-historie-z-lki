@@ -210,6 +210,11 @@ URL: https://www.zubrzycki.osk.info.pl/
 Technologia: Drupal  
 Dowód: publiczne zasoby strony są serwowane ze standardowej struktury Drupala `/sites/default/files/`, m.in. z `/sites/default/files/2022-04/logowhite-01.svg`.
 
+### 41
+URL: https://www.jkk.olsztyn.pl/  
+Technologia: Joomla  
+Dowód: publiczna strona renderuje standardowy komunikat ochrony adresu e-mail „Ten adres pocztowy jest chroniony przed spamowaniem. Aby go zobaczyć, konieczne jest włączenie w przeglądarce obsługi JavaScript.”, charakterystyczny dla mechanizmu Joomla Content - Email Cloaking.
+
 ## Historycznie potwierdzone — wymagają ponownej kontroli aktualnego stanu
 
 ### H1
@@ -245,36 +250,31 @@ Technologia: Nierozpoznana
 Dowód: aktywna oficjalna strona OSK została potwierdzona; w publicznie pobranej treści nie znaleziono jeszcze jednoznacznego fingerprintu CMS/frameworka.
 
 ### N6
-URL: https://www.jkk.olsztyn.pl/  
-Technologia: Nierozpoznana  
-Dowód: aktywna oficjalna strona OSK została potwierdzona; dotychczasowy publiczny odczyt nie ujawnił jednoznacznego fingerprintu CMS/frameworka.
-
-### N7
 URL: https://www.fokus.olsztyn.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Fokus została potwierdzona; technologia wymaga dalszej inspekcji assetów i kodu źródłowego.
 
-### N8
+### N7
 URL: https://www.osk-szulc.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Szulc w Bydgoszczy została odnaleziona; dotychczasowy publiczny odczyt nie ujawnił jednoznacznego fingerprintu CMS/frameworka.
 
-### N9
+### N8
 URL: https://oskmentor.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Mentor w Toruniu została odnaleziona; technologia wymaga dalszej inspekcji HTML i assetów.
 
-### N10
+### N9
 URL: https://osk-kierowca.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Kierowca w Toruniu została odnaleziona; dotychczas nie potwierdzono jednoznacznego CMS/frameworka.
 
-### N11
+### N10
 URL: https://www.oskauto.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Auto w Toruniu została odnaleziona; technologia wymaga dalszej weryfikacji technicznej.
 
-### N12
+### N11
 URL: https://oskperfect.pl/  
 Technologia: Nierozpoznana  
 Dowód: aktywna oficjalna strona OSK Perfect w Łodzi została odnaleziona; brak jeszcze technicznego fingerprintu pozwalającego uczciwie przypisać CMS/framework.
