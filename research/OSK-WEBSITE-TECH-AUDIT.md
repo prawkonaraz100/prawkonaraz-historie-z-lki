@@ -215,6 +215,16 @@ URL: https://www.jkk.olsztyn.pl/
 Technologia: Joomla  
 Dowód: publiczna strona renderuje standardowy komunikat ochrony adresu e-mail „Ten adres pocztowy jest chroniony przed spamowaniem. Aby go zobaczyć, konieczne jest włączenie w przeglądarce obsługi JavaScript.”, charakterystyczny dla mechanizmu Joomla Content - Email Cloaking.
 
+### 42
+URL: https://autostart.olsztyn.pl/  
+Technologia: WordPress  
+Dowód: publiczny obraz strony jest serwowany z `/wp-content/uploads/2019/06/wej%E2%94%BC%C5%A4cie-Kopia.jpg`.
+
+### 43
+URL: https://www.centrum-osk.pl/  
+Technologia: WordPress  
+Dowód: publiczne obrazy strony są serwowane z `/wp-content/uploads/`, m.in. `/wp-content/uploads/2023/03/DS100238.jpg` oraz `/wp-content/uploads/2021/07/L-ki-28.jpg`.
+
 ## Historycznie potwierdzone — wymagają ponownej kontroli aktualnego stanu
 
 ### H1
